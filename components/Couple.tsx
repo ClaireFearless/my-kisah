@@ -1,5 +1,5 @@
 "use client";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 
 export default function Couple() {
   const partners = [
@@ -17,7 +17,8 @@ export default function Couple() {
     }
   ];
 
-  const cardVariants = {
+  // Menambahkan tipe 'Variants' agar TypeScript mengenali properti animasinya
+  const cardVariants: Variants = {
     offscreen: {
       y: 50,
       opacity: 0
@@ -34,7 +35,6 @@ export default function Couple() {
   };
 
   return (
-    // Tambahkan suppressHydrationWarning di sini jika masih ada error merah di konsol
     <section id="couple" className="py-32 bg-[#f3f4f6] flex flex-col items-center" suppressHydrationWarning>
       <h2 className="text-4xl font-bold text-gray-800 mb-16 tracking-tight">The Couple</h2>
       
@@ -55,7 +55,7 @@ export default function Couple() {
               y: -5,
               transition: { duration: 0.2 }
             }}
-            suppressHydrationWarning // Menghindari mismatch akibat ekstensi browser pada elemen link/div
+            suppressHydrationWarning
           >
             <div className="w-48 h-48 rounded-full overflow-hidden mb-6 border-4 border-white shadow-md">
               <img 
