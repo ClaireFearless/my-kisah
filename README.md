@@ -9,9 +9,9 @@ https://my-ye-shunguang.vercel.app
 
 ## Teknologi yang Digunakan
 
+* Next.js
 * TypeScript
-* HTML & CSS
-* (Tambahkan jika ada, seperti: Vite, React, Tailwind CSS)
+* Tailwind CSS
 
 ## Fitur
 
@@ -57,13 +57,6 @@ Proyek ini dibuat untuk:
 * Meningkatkan kemampuan dalam menulis kode yang terstruktur
 * Melatih proses deployment aplikasi web
 
-## Pengembangan Selanjutnya
-
-Beberapa pengembangan yang dapat dilakukan:
-
-* Penambahan fitur input dan manajemen kisah
-* Integrasi dengan database
-* Sistem autentikasi pengguna
 
 ## Lisensi
 
